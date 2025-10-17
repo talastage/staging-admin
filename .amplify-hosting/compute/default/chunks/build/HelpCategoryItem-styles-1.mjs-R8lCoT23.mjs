@@ -1,0 +1,1 @@
+const a=".help-category-card[data-v-88563886]{cursor:pointer;transition:transform .2s,box-shadow .2s}.help-category-card[data-v-88563886]:hover{box-shadow:0 4px 8px rgba(0,0,0,.1)!important;transform:translateY(-2px)}.card-content[data-v-88563886]{padding:8px}.category-title[data-v-88563886]{margin-bottom:4px}.description[data-v-88563886]{margin:0}";export{a as H};

@@ -1,0 +1,1 @@
+import{n as o,o as _,a as n,w as e,p as t,e4 as p,_ as s}from"./CGQimWOm.js";import{V as c,a as r}from"./CdMx_-U5.js";import"./Dn0bXcU5.js";const u=o({__name:"default copy",setup(l){return(d,f)=>{const a=p;return _(),n(r,null,{default:e(()=>[t(c,null,{default:e(()=>[t(a)]),_:1})]),_:1})}}}),V=s(u,[["__scopeId","data-v-bee1129d"]]);export{V as default};

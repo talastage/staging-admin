@@ -1,0 +1,1 @@
+const a=".user-search[data-v-c623875a]{margin:0 auto;max-width:600px}.user-card[data-v-c623875a]{transition:all .2s ease}.user-card[data-v-c623875a]:hover{background-color:rgba(var(--v-theme-primary),.04);box-shadow:0 1px 3px rgba(0,0,0,.05)}";export{a as S};

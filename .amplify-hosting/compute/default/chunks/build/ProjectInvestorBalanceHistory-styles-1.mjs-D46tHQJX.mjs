@@ -1,0 +1,1 @@
+const t=".v-list-item[data-v-7b86ffff]{transition:background-color .2s ease}.v-list-item[data-v-7b86ffff]:hover{background-color:rgb(var(--v-theme-primary),.05)!important}.sentinel-element[data-v-7b86ffff]{min-height:10px}";export{t as P};

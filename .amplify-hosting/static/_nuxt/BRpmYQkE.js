@@ -1,0 +1,1 @@
+import{i as n,c as i}from"./CGQimWOm.js";const l=e=>{const r=n();return{isProfileOwner:i(()=>{var s,u,t,o;return!e||!((u=(s=r.user)==null?void 0:s.value)!=null&&u.username)?!1:((o=(t=r.user)==null?void 0:t.value)==null?void 0:o.username)===e})}};export{l as u};

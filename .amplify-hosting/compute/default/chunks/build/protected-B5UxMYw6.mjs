@@ -1,0 +1,1 @@
+import{useSSRContext as e}from"vue";const t={__name:"protected",setup:e=>()=>{}},o=t.setup;t.setup=(t,s)=>{const u=e();return(u.modules||(u.modules=new Set)).add("pages/protected.vue"),o?o(t,s):void 0};export{t as default};

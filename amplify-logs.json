@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "timestamp": 1760602087809,
+            "message": "START RequestId: 20ca910f-f6f5-4e29-943b-24a815fb3c26 Version: $LATEST\n",
+            "ingestionTime": 1760602097726
+        },
+        {
+            "timestamp": 1760602087813,
+            "message": "Starting request using compute deployment_id: 87ef3c35-0f0d-46a7-b0fc-f70d4c603631 and compute version: $LATEST\n",
+            "ingestionTime": 1760602097726
+        },
+        {
+            "timestamp": 1760602087817,
+            "message": "[Vue Router warn]: uncaught error during route navigation:\n",
+            "ingestionTime": 1760602097726
+        },
+        {
+            "timestamp": 1760602087821,
+            "message": "file:///var/task/chunks/build/TalentRegisterForm-Dbu1I6MR.mjs:1\n",
+            "ingestionTime": 1760602097726
+        },
+        {
+            "timestamp": 1760602087821,
+            "message": 
+'charmap' codec can't encode character '\U0001f680' in position 5205: character maps to <undefined>

@@ -1,0 +1,1 @@
+const a=".payment-avatar[data-v-e60bd4c2]{box-shadow:0 2px 8px rgba(0,0,0,.1)}@media (max-width:600px){.d-flex[data-v-e60bd4c2]{align-items:center;flex-direction:column;text-align:center}.amount-info[data-v-e60bd4c2]{margin:12px 0}.ml-auto[data-v-e60bd4c2]{margin-left:0!important;margin-top:16px;width:100%}}";export{a as P};

@@ -1,0 +1,1 @@
+const t=".watch-page-container[data-v-695c409b]{min-height:100vh;width:100%}.error-container[data-v-695c409b],.loading-container[data-v-695c409b]{align-items:center;display:flex;font-size:1.2rem;justify-content:center;min-height:50vh}";export{t as i};

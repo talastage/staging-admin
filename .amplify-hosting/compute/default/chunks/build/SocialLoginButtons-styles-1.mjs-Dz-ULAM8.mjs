@@ -1,0 +1,1 @@
+const t=".social-login-section[data-v-0b073d6e]{width:100%}.social-buttons-container[data-v-0b073d6e]{display:flex;flex-direction:column;gap:6px}.social-btn[data-v-0b073d6e]{font-size:.875rem;font-weight:500;height:36px;text-transform:none}";export{t as S};

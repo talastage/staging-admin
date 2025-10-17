@@ -1,0 +1,1 @@
+const t="a[data-v-e93202b6]{color:inherit;text-decoration:none}a[data-v-e93202b6]:hover{text-decoration:underline}.v-list-item[data-v-e93202b6]{min-height:40px;padding-left:0!important;padding-right:0!important}.v-list-item-title[data-v-e93202b6]{line-height:1.4}";export{t as L};

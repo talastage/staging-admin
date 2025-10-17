@@ -1,0 +1,55 @@
+// assets/scss/layout/_spacing.scss
+
+// Global spacing variables
+:root {
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-xxl: 4rem;
+
+  // Component spacing
+  --section-spacing: 2rem; // Reduced from xl to a fixed value
+  --header-margin-top: 1rem; // Reduced from lg to 1rem
+  --header-margin-bottom: var(--spacing-md);
+  --carousel-margin-top: var(--spacing-md);
+}
+
+// Utility classes for consistent spacing across components
+.section-wrapper {
+  margin-bottom: var(--section-spacing);
+}
+
+.header-spacing {
+  margin-top: var(--header-margin-top);
+  margin-bottom: var(--header-margin-bottom);
+}
+
+.content-block {
+  margin-bottom: var(--spacing-lg);
+}
+
+// Component wrapper for major sections in HomePage
+.component-wrapper {
+  margin-bottom: var(--section-spacing);
+
+  // First child needs less top margin
+  &:first-of-type {
+    margin-top: 0.5rem;
+  }
+}
+
+// Carousel component specific spacing
+.carousel-component {
+  margin-bottom: var(--spacing-md);
+}
+
+// Responsive adjustments
+@media (max-width: 600px) {
+  :root {
+    --section-spacing: 2rem;
+    --header-margin-top: 1.5rem;
+    --header-margin-bottom: 1rem;
+  }
+}

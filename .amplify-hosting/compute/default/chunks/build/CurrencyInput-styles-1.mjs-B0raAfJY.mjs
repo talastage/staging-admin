@@ -1,0 +1,1 @@
+const e=".currency-prefix[data-v-5d23ec85],.currency-suffix[data-v-5d23ec85]{font-weight:500;opacity:.8;padding-left:4px;padding-right:4px;-webkit-user-select:none;-moz-user-select:none;user-select:none;white-space:nowrap}[data-v-5d23ec85] .v-field__append-inner,[data-v-5d23ec85] .v-field__prepend-inner{align-items:center;padding-bottom:0;padding-top:0}";export{e as C};

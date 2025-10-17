@@ -1,0 +1,1 @@
+const r=".loading-spinner[data-v-0180d527]{animation:spin-0180d527 1s ease-in-out infinite;border:4px solid rgba(0,0,0,.1);border-radius:50%;border-top-color:#1867c0;height:40px;width:40px}@keyframes spin-0180d527{to{transform:rotate(1turn)}}";export{r as _};

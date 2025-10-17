@@ -1,0 +1,1 @@
+const a=".wallet-pin-card[data-v-53a968da]{border-radius:16px;padding:2rem 1rem;width:100%}@media (min-width:600px){.wallet-pin-card[data-v-53a968da]{padding:2rem}}.v-window-item[data-v-53a968da]{transition:all .3s ease}[data-v-53a968da] .v-otp-input input{border-radius:8px;font-size:1.5rem;font-weight:700}";export{a as W};

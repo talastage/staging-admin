@@ -1,0 +1,1 @@
+const d=".border[data-v-7ddf9d08]{border:1px solid rgba(var(--v-border-color),var(--v-border-opacity))}.rounded-s[data-v-7ddf9d08]{border-bottom-left-radius:4px;border-top-left-radius:4px}.flag-emoji[data-v-7ddf9d08]{font-size:1.2em;line-height:1}.flag-image[data-v-7ddf9d08]{border-radius:2px;height:15px;-o-object-fit:cover;object-fit:cover;width:20px}";export{d as C};

@@ -1,0 +1,1 @@
+const a=".amount-display[data-v-0ebe1834]{min-width:200px;transition:transform .2s ease}.amount-display[data-v-0ebe1834]:hover{transform:translateY(-2px)}[data-v-0ebe1834] .v-card-item{padding:0!important}";export{a as A};

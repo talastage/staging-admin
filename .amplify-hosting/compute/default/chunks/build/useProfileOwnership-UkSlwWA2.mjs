@@ -1,0 +1,1 @@
+import{computed as r}from"vue";import{a as e}from"./server.mjs";const useProfileOwnership=u=>{const o=e();return{isProfileOwner:r((()=>{var r,e,l,n;return!(!u||!(null==(e=null==(r=o.user)?void 0:r.value)?void 0:e.username))&&(null==(n=null==(l=o.user)?void 0:l.value)?void 0:n.username)===u}))}};export{useProfileOwnership as u};

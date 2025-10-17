@@ -1,0 +1,1 @@
+const a=".empty-state-container[data-v-683d1111]{margin:0 auto;max-width:600px;padding:2rem}.creator-tips[data-v-683d1111]{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:1rem}@media (max-width:600px){.empty-state-container[data-v-683d1111]{padding:1rem}.creator-tips[data-v-683d1111]{gap:4px}}";export{a as U};

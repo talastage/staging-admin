@@ -1,0 +1,1 @@
+function maskEmail(t){if(!t||!t.includes("@"))return t;const[e,n]=t.split("@"),[a,l]=n.split(".");return`${e.length<=2?e:`${e.charAt(0)}${"*".repeat(e.length-2)}${e.charAt(e.length-1)}`}@${a.length<=2?a:`${a.charAt(0)}${"*".repeat(a.length-2)}${a.charAt(a.length-1)}`}.${l}`}export{maskEmail as m};

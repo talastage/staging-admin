@@ -1,0 +1,1 @@
+const a=".v-card-title[data-v-e6b93c72]{align-items:center;display:flex}.v-chip[data-v-e6b93c72]{font-size:.875rem}.v-card[data-v-e6b93c72]{border-radius:12px}";export{a as p};

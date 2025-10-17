@@ -1,0 +1,1 @@
+const r=".talents-carousel[data-v-a7fc932b]{overflow:hidden}.error-message[data-v-a7fc932b]{background-color:rgba(255,0,0,.05);border-radius:8px;color:red;margin-bottom:1rem;padding:1rem;text-align:center}";export{r as R};

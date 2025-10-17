@@ -1,0 +1,1 @@
+function c(){return{currencyFormatter:(n,r,t)=>{if(!t||!r)return console.error("Both currency code and symbol are required for formatting."),null;try{return new Intl.NumberFormat("en-US",{style:"currency",currency:t,minimumFractionDigits:2,maximumFractionDigits:2}).format(n).replace(/^\D+/,r)}catch(e){return console.error("Error formatting currency:",e),null}}}}export{c as u};

@@ -1,0 +1,1 @@
+const t="@media (max-width:600px){h1.text-h4[data-v-ae852376]{font-size:1.5rem!important;line-height:1.2!important;margin-bottom:.75rem!important}}.sentinel[data-v-ae852376]{height:10px;margin:20px 0}";export{t as i};

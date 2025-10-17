@@ -1,0 +1,1 @@
+const t=".project-credits-page[data-v-716fa9b7]{min-height:400px}";export{t as P};

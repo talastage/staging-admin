@@ -1,0 +1,1 @@
+const a=".investments-container[data-v-e41da06f]{max-width:100%}.investments-grid[data-v-e41da06f]{display:flex;flex-direction:column;gap:16px}@media (max-width:600px){.investments-grid[data-v-e41da06f]{gap:12px}}";export{a as U};

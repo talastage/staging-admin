@@ -1,0 +1,1 @@
+const a=".home-page[data-v-0d90ad0b]{padding:40px 0}h1[data-v-0d90ad0b]{font-size:2.5rem;margin-bottom:1rem}p[data-v-0d90ad0b]{color:#666;font-size:1.2rem;margin-bottom:2rem}";export{a as i};

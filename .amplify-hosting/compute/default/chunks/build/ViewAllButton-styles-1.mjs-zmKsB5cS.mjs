@@ -1,0 +1,1 @@
+const t=".view-all-button[data-v-3342c895]{border-radius:8px!important;font-size:12px!important;font-weight:400!important;letter-spacing:normal!important;padding:0 12px!important;text-transform:none!important}";export{t as V};

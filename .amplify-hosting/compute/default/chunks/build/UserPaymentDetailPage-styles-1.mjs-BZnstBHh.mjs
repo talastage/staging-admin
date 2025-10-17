@@ -1,0 +1,1 @@
+const t=".payment-status-container[data-v-2840bb9c]{width:100%}[data-v-2840bb9c] .v-skeleton-loader{animation:skeleton-pulse-2840bb9c 1.5s ease-in-out infinite}@keyframes skeleton-pulse-2840bb9c{0%{opacity:1}50%{opacity:.5}to{opacity:1}}";export{t as U};

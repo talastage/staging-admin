@@ -1,0 +1,1 @@
+const a=".investor-card[data-v-d7c00134]{border-radius:12px;transition:all .3s ease}.investor-card[data-v-d7c00134]:hover{box-shadow:0 4px 15px rgba(0,0,0,.1);transform:translateY(-2px)}[data-v-d7c00134] .v-tabs{border-radius:12px 12px 0 0}[data-v-d7c00134] .v-window{border-radius:0 0 12px 12px}[data-v-d7c00134] .v-tab{letter-spacing:normal;text-transform:none}";export{a as i};

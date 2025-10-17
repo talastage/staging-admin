@@ -1,0 +1,1 @@
+import{shallowRef as o,computed as t,readonly as s}from"vue";function useSsrBoot(){const r=o(!1);return{ssrBootStyles:t((()=>r.value?void 0:{transition:"none !important"})),isBooted:s(r)}}export{useSsrBoot as u};

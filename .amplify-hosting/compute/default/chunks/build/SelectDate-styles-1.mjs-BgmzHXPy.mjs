@@ -1,0 +1,1 @@
+const t=".select-date-wrapper[data-v-048f4779]{position:relative;width:100%}.date-picker[data-v-048f4779]{width:100%}.date-input[data-v-048f4779]{min-width:220px}[data-v-048f4779] .v-field{width:100%}[data-v-048f4779] .dp__theme_light{--dp-primary-color:rgb(var(--v-theme-primary))}[data-v-048f4779] .dp__menu{z-index:1000}";export{t as S};

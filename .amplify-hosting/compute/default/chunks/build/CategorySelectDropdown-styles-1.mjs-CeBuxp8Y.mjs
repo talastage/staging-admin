@@ -1,0 +1,1 @@
+const e=".category-select-dropdown[data-v-e13bd299]{width:100%}.selected-item-display[data-v-e13bd299]{align-items:center;border:1px solid rgba(0,0,0,.12);border-radius:4px;display:flex;justify-content:space-between;padding:12px 16px}.item-info[data-v-e13bd299]{flex-grow:1}.generic-category-select[data-v-e13bd299]{margin-top:8px}";export{e as C};

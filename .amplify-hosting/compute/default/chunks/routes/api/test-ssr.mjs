@@ -1,0 +1,1 @@
+import{d as o}from"../../_/nitro.mjs";import"node:http";import"node:https";import"vue";import"node:fs";import"node:url";import"consola/core";import"nuxt-site-config/urls";import"ipx";import"node:path";const t=o((o=>({message:"SSR is working",timestamp:(new Date).toISOString(),url:o.node.req.url})));export{t as default};

@@ -1,0 +1,1 @@
+const t=".deposit-status-container[data-v-f488c0b2]{width:100%}[data-v-f488c0b2] .v-skeleton-loader{animation:skeleton-pulse-f488c0b2 1.5s ease-in-out infinite}@keyframes skeleton-pulse-f488c0b2{0%{opacity:1}50%{opacity:.5}to{opacity:1}}";export{t as W};

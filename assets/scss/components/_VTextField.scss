@@ -1,0 +1,82 @@
+.v-text-field input {
+  font-size: 0.875rem;
+}
+.v-field__outline {
+  color: rgb(var(--v-theme-inputBorder));
+}
+.input {
+  .v-field--variant-outlined {
+    background-color: rgba(0, 0, 0, 0.025);
+  }
+}
+
+/* Global mobile visibility fixes for all v-text-fields */
+@media (max-width: 768px) {
+  .v-field {
+    /* Force visibility on mobile devices */
+    opacity: 1 !important;
+    visibility: visible !important;
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff !important;
+    /* Hardware acceleration to prevent rendering issues */
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    will-change: auto;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .v-field__input {
+    /* Ensure input text is always visible */
+    color: #000000 !important;
+    opacity: 1 !important;
+    -webkit-text-fill-color: #000000 !important;
+    background-color: transparent !important;
+  }
+
+  .v-field__outline {
+    /* Ensure borders are visible */
+    border-color: rgba(0, 0, 0, 0.38) !important;
+    opacity: 1 !important;
+  }
+
+  .v-field--focused .v-field__outline {
+    border-color: rgb(var(--v-theme-primary)) !important;
+    border-width: 2px !important;
+  }
+
+  .v-label {
+    color: rgba(0, 0, 0, 0.6) !important;
+    opacity: 1 !important;
+  }
+
+  /* Prevent zoom on input focus (iOS Safari) */
+  .v-field__input input,
+  .v-field__input textarea {
+    font-size: 16px !important;
+    transform: none !important;
+  }
+}
+
+/* iOS Safari specific fixes */
+@supports (-webkit-touch-callout: none) {
+  .v-field__input {
+    -webkit-appearance: none;
+    -webkit-text-fill-color: #000000 !important;
+  }
+
+  .v-field__input input {
+    -webkit-appearance: none;
+    -webkit-text-fill-color: #000000 !important;
+  }
+}
+
+/* Android Chrome specific fixes */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .v-field {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+

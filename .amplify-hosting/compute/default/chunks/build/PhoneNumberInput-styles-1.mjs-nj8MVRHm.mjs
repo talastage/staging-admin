@@ -1,0 +1,1 @@
+const a=".phone-input-container[data-v-8cb6337a]{width:100%}.country-display[data-v-8cb6337a]{height:100%}.border[data-v-8cb6337a]{border:1px solid rgba(var(--v-border-color),var(--v-border-opacity))}";export{a as P};

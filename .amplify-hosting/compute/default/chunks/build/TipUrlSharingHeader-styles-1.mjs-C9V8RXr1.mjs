@@ -1,0 +1,1 @@
+const a=".tip-url-sharing-header-card[data-v-d82ddc97]{background-color:#fff;border-radius:8px;box-shadow:0 1px 2px rgba(0,0,0,.1)}.tip-feature[data-v-d82ddc97]{background-color:rgba(var(--v-theme-surface),.5);border-radius:16px;padding:4px 8px}.gap-3[data-v-d82ddc97]{gap:.75rem}@media (max-width:600px){.gap-3[data-v-d82ddc97]{gap:.5rem}}";export{a as T};

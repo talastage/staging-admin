@@ -1,0 +1,1 @@
+const a=".order-detail-page[data-v-25c5633e]{margin:0 auto;max-width:1200px;padding:20px}";export{a as o};

@@ -1,0 +1,1 @@
+const t=".v-card-title[data-v-cbdd3263]{align-items:center;display:flex;justify-content:space-between;padding:16px 20px}.v-card-title[data-v-cbdd3263] .d-flex{flex:1;margin-right:16px}.v-card-title[data-v-cbdd3263] .v-btn--icon{margin:-8px}";export{t as B};

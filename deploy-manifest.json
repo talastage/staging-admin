@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "framework": {
+    "name": "nuxt",
+    "version": "3.14.1592"
+  },
+  "imageSettings": {
+    "sizes": [
+      640,
+      750,
+      828,
+      1080,
+      1200,
+      1920,
+      2048,
+      3840
+    ],
+    "domains": [],
+    "remotePatterns": [],
+    "formats": [
+      "image/avif",
+      "image/webp"
+    ]
+  },
+  "routes": [
+    {
+      "path": "/*",
+      "target": "Compute",
+      "fallback": "Compute"
+    }
+  ],
+  "computeResources": [
+    {
+      "name": "Compute",
+      "runtime": "nodejs20.x",
+      "entrypoint": "server/index.mjs"
+    }
+  ]
+}

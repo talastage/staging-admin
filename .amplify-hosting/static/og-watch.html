@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video Project - Talastage</title>
+  <meta name="description" content="Check out this amazing project on Talastage">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="video.other">
+  <meta property="og:site_name" content="Talastage">
+  <meta property="og:url" content="">
+  <meta property="og:title" content="Video Project - Talastage">
+  <meta property="og:description" content="Check out this amazing project on Talastage">
+  <meta property="og:image" content="https://talastage.com/talastage_logo.png">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="720">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@talastage">
+  <meta name="twitter:url" content="">
+  <meta name="twitter:title" content="Video Project - Talastage">
+  <meta name="twitter:description" content="Check out this amazing project on Talastage">
+  <meta name="twitter:image" content="https://talastage.com/talastage_logo.png">
+  
+  <!-- Redirect to actual page -->
+  <script>
+    // Get UUID from URL parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const uuid = urlParams.get('uuid');
+    const actualUrl = `https://talastage.com/watch/${uuid}`;
+    
+    // Check if it's a social media crawler
+    const userAgent = navigator.userAgent.toLowerCase();
+    const crawlers = ['facebookexternalhit', 'twitterbot', 'linkedinbot', 'whatsapp', 'telegrambot', 'skypeuripreview', 'slackbot', 'discordbot', 'applebot', 'googlebot', 'bingbot', 'yandexbot', 'pinterest', 'redditbot', 'snapchat'];
+    const isCrawler = crawlers.some(crawler => userAgent.includes(crawler));
+    
+    if (uuid) {
+      // Update meta tags with actual URL
+      document.querySelector('meta[property="og:url"]').content = actualUrl;
+      document.querySelector('meta[name="twitter:url"]').content = actualUrl;
+      
+      if (isCrawler) {
+        // For crawlers: fetch project data and update meta tags
+        fetch(`https://pk2lzskmzsbsacqh5ggteyhqnm0memvs.lambda-url.us-east-1.on.aws/api/projects/${uuid}/watch`)
+          .then(response => response.json())
+          .then(data => {
+            if (data.status === 'success' && data.data) {
+              const project = data.data;
+              const title = `${project.name || 'Video Project'} - Talastage`;
+              const description = project.description || 'Check out this amazing project on Talastage';
+              const image = project.thumbnail_url || 'https://talastage.com/talastage_logo.png';
+              
+              // Update title
+              document.title = title;
+              document.querySelector('meta[property="og:title"]').content = title;
+              document.querySelector('meta[name="twitter:title"]').content = title;
+              
+              // Update description
+              document.querySelector('meta[name="description"]').content = description;
+              document.querySelector('meta[property="og:description"]').content = description;
+              document.querySelector('meta[name="twitter:description"]').content = description;
+              
+              // Update image
+              document.querySelector('meta[property="og:image"]').content = image;
+              document.querySelector('meta[name="twitter:image"]').content = image;
+              
+              // Update video if available
+              if (project.video_url) {
+                const videoMeta = document.createElement('meta');
+                videoMeta.setAttribute('property', 'og:video');
+                videoMeta.content = project.video_url;
+                document.head.appendChild(videoMeta);
+              }
+            }
+          })
+          .catch(() => {
+            // Keep default values on error
+          });
+      } else {
+        // For regular users: redirect immediately
+        window.location.href = actualUrl;
+      }
+    } else {
+      if (!isCrawler) {
+        window.location.href = 'https://talastage.com';
+      }
+    }
+  </script>
+</head>
+<body>
+  <p>Loading project details...</p>
+</body>
+</html>

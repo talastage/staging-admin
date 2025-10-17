@@ -1,0 +1,1 @@
+const a=".search-results-page[data-v-75d65dc7]{background-color:#f5f5f5;min-height:100vh;padding:24px 0}.sort-select[data-v-75d65dc7]{max-width:200px}.gap-2[data-v-75d65dc7]{gap:8px}";export{a as p};

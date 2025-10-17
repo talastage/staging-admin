@@ -1,0 +1,4 @@
+// Modern SCSS imports helper
+// Use this file in Vue components instead of directly importing variables
+
+@forward './_variables';

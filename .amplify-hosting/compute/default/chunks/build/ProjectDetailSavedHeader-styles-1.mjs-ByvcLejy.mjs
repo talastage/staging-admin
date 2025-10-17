@@ -1,0 +1,1 @@
+const t=".project-detail-header[data-v-36585f84]{background:#fff;border-bottom:1px solid rgba(0,0,0,.12);position:sticky;top:0;z-index:100}.save-status-btn[data-v-36585f84]{min-width:120px;text-transform:none}.project-name[data-v-36585f84]{max-width:60%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}";export{t as P};

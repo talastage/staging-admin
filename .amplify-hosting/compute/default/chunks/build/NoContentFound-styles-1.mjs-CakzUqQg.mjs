@@ -1,0 +1,1 @@
+const n=".no-content-found[data-v-6bb878b4]{align-items:center;background-color:#f0f2f5;border-radius:8px;display:flex;flex-direction:column;justify-content:center;padding:24px}";export{n as N};

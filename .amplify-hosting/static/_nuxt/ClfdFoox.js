@@ -1,0 +1,1 @@
+import{e0 as t,i as r,bH as i}from"./CGQimWOm.js";const s=t(async(e,n)=>{const o=r();if(["/register","/login"].includes(e.path))return;if(!o.isLoggedIn&&!null)return i("/login",{query:{redirect:e.fullPath}})});export{s as default};

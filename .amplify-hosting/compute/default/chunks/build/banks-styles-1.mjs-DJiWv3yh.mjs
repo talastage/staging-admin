@@ -1,0 +1,1 @@
+const o="pre[data-v-4f298429]{background-color:#f5f5f5;border-radius:4px;font-size:12px;overflow-x:auto;padding:12px}";export{o as b};

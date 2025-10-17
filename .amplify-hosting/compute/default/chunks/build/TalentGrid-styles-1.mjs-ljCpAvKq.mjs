@@ -1,0 +1,1 @@
+const t=".talent-grid[data-v-80b270f6]{position:relative;width:100%}.talent-grid__row[data-v-80b270f6]{margin:0}.talent-grid__col[data-v-80b270f6]{display:flex;justify-content:center;padding:8px}.intersection-target[data-v-80b270f6]{height:10px;margin-top:16px;width:100%}";export{t as T};

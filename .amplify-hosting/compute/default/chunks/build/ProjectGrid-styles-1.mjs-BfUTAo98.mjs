@@ -1,0 +1,1 @@
+const t=".project-grid[data-v-623b1ca6]{max-width:100%;width:100%}.intersection-target[data-v-623b1ca6]{height:20px;width:100%}[data-v-623b1ca6] .project-card{background:transparent;height:100%}[data-v-623b1ca6] .project-card-compact{margin-bottom:0;width:100%}";export{t as P};

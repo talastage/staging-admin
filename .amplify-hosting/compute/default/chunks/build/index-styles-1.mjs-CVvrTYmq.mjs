@@ -1,0 +1,1 @@
+const a=".v-container[data-v-0620a002]{height:calc(100vh - 64px);overflow-y:auto}";export{a as i};

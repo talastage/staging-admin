@@ -1,0 +1,79 @@
+# robots.txt for talastage.com
+User-agent: *
+
+# Allow public pages for indexing
+Allow: /
+Allow: /help
+Allow: /help/*/
+Allow: /premieres
+Allow: /premieres/*/
+Allow: /premiering
+Allow: /premiering/*/
+Allow: /talents
+Allow: /talents/*/
+Allow: /talents/categories/
+Allow: /talents/collections/
+Allow: /investors
+Allow: /investors/*/
+Allow: /policies
+Allow: /policies/*/
+Allow: /contacts
+Allow: /contacts/*/
+Allow: /trending
+Allow: /upcoming
+Allow: /register
+Allow: /register/talent
+Allow: /login
+
+# User authentication and private areas
+Disallow: /account/
+Disallow: /password/
+Disallow: /profile/
+Disallow: /studio/
+Disallow: /wallet/
+Disallow: /protected/
+
+# Payment and transaction pages
+Disallow: /payments/
+Disallow: /orders/
+Disallow: /checkout
+Disallow: /tips/
+Disallow: /tip/
+
+# User-specific content
+Disallow: /notifications
+Disallow: /fanning
+Disallow: /fans
+Disallow: /watching
+
+# Dynamic project pages (require authentication)
+Disallow: /project/
+Allow: /watch/
+
+# Investment pages (private)
+Disallow: /investments/
+
+# Search results and dynamic pages
+Disallow: /search_results
+Disallow: /page_search_results
+Disallow: /*?*search*
+Disallow: /*?*query*
+Disallow: /*?*filter*
+
+# Test and development pages
+Disallow: /test/
+
+# API endpoints
+Disallow: /api/
+Disallow: /_nuxt/
+Disallow: /.nuxt/
+
+# Error pages
+Disallow: /404
+Disallow: /user-not-found
+
+# Rate limiting for crawlers
+Crawl-delay: 5
+
+# Sitemap location
+Sitemap: https://talastage.com/sitemap.xml

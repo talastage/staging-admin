@@ -1,0 +1,1 @@
+function h(e){if(!e||!e.includes("@"))return e;const[t,a]=e.split("@"),[n,s]=a.split("."),r=t.length<=2?t:`${t.charAt(0)}${"*".repeat(t.length-2)}${t.charAt(t.length-1)}`,c=n.length<=2?n:`${n.charAt(0)}${"*".repeat(n.length-2)}${n.charAt(n.length-1)}`;return`${r}@${c}.${s}`}export{h as m};

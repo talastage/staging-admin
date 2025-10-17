@@ -1,0 +1,1 @@
+const a=".wallet-pin-verification[data-v-5efbac82]{margin:0 auto;max-width:400px}[data-v-5efbac82] .v-otp-input input{border-radius:6px;font-size:1.25rem}.v-btn[data-v-5efbac82]{border-radius:8px;text-transform:none}";export{a as W};

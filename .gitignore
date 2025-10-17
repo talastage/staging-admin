@@ -1,0 +1,27 @@
+*.zip
+*.rar
+*.tar.gz
+node_modules
+
+# Nuxt dev/build outputs
+.nuxt
+.output
+dist
+
+# Environment files
+.env.local
+
+# Debug files
+debug images/
+
+# Backup files
+Backups/
+
+# IDE files
+*.iml
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,1 @@
+const e=".v-skeleton-loader[data-v-77860c21]{--skeleton-background-color:rgba(0,0,0,.06);border-radius:4px}[data-v-77860c21] .v-skeleton-loader__bone{animation:skeleton-pulse-77860c21 1.5s ease-in-out infinite}@keyframes skeleton-pulse-77860c21{0%{opacity:.6}50%{opacity:.8}to{opacity:.6}}";export{e as U};

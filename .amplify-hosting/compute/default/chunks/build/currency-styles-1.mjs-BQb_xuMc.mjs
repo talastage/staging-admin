@@ -1,0 +1,1 @@
+const a=".test-container[data-v-c39ec2aa]{background-color:#f5f5f5;min-height:100vh;padding:2rem 0}pre[data-v-c39ec2aa]{background-color:#f8f9fa;border-radius:.25rem;font-family:Courier New,monospace;max-width:100%;overflow-x:auto;padding:.5rem}";export{a as c};

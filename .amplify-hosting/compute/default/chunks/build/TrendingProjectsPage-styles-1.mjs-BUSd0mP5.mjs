@@ -1,0 +1,1 @@
+const t=".trending-projects[data-v-f15cc9f3]{padding:2rem 0;width:100%}";export{t as T};

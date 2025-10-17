@@ -1,0 +1,1 @@
+import{j as r,g as a}from"./CGQimWOm.js";function i(){const s=r([]),e=r(!1),t=r(null);return{countries:s,loading:e,error:t,fetchCountries:async()=>{e.value=!0,t.value=null;try{const{$axios:o}=a(),n=await o.get("/api/countries");s.value=n.data.countries}catch(o){console.error("Error fetching countries:",o),t.value="Failed to load countries"}finally{e.value=!1}}}}export{i as u};

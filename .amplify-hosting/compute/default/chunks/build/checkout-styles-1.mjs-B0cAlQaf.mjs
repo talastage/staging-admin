@@ -1,0 +1,1 @@
+const a=".checkout-page-wrapper[data-v-7cdaf26b]{min-height:calc(100vh - 70px);padding:16px 0}.checkout-container[data-v-7cdaf26b]{margin:0 auto;max-width:1200px;padding:0 16px}@media (max-width:600px){.checkout-page-wrapper[data-v-7cdaf26b]{padding:8px 0}.checkout-container[data-v-7cdaf26b]{padding:0 8px}}";export{a as c};

@@ -1,0 +1,127 @@
+/* Mobile Form Visibility Fixes */
+
+/* Force visibility for all form elements on mobile */
+@media (max-width: 768px) {
+  /* Vuetify form fields */
+  .v-text-field,
+  .v-autocomplete,
+  .v-select,
+  .v-textarea {
+    /* Prevent disappearing on mobile browsers */
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+    .v-field {
+      /* Force solid background */
+      background: #ffffff !important;
+      border: 1px solid rgba(0, 0, 0, 0.38) !important;
+      
+      &--focused {
+        border-color: rgb(var(--v-theme-primary)) !important;
+        border-width: 2px !important;
+      }
+    }
+    
+    .v-field__input {
+      /* Ensure text is always visible */
+      color: #000000 !important;
+      -webkit-text-fill-color: #000000 !important;
+      opacity: 1 !important;
+      
+      input, textarea {
+        color: #000000 !important;
+        -webkit-text-fill-color: #000000 !important;
+        background-color: transparent !important;
+        /* Prevent zoom on focus */
+        font-size: 16px !important;
+      }
+    }
+    
+    .v-label {
+      color: rgba(0, 0, 0, 0.6) !important;
+      opacity: 1 !important;
+    }
+  }
+}
+
+/* Specific fixes for problematic mobile browsers */
+
+/* Samsung Internet Browser */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .v-field {
+    -webkit-appearance: none !important;
+    appearance: none !important;
+  }
+  
+  .v-field__input input {
+    -webkit-appearance: none !important;
+    appearance: none !important;
+  }
+}
+
+/* iOS Safari fixes */
+@supports (-webkit-touch-callout: none) {
+  .v-field {
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .v-field__input input {
+    -webkit-appearance: none;
+    -webkit-text-fill-color: #000000 !important;
+    -webkit-opacity: 1 !important;
+  }
+}
+
+/* Chrome on Android fixes */
+@media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  .v-field {
+    /* Force GPU acceleration */
+    will-change: transform;
+    transform: translateZ(0);
+  }
+}
+
+/* Edge cases for specific devices */
+@media (max-width: 480px) {
+  .v-field {
+    /* Extra small screens */
+    min-height: 48px !important;
+  }
+  
+  .v-field__input {
+    padding: 12px 16px !important;
+  }
+}
+
+/* Dark mode compatibility */
+@media (prefers-color-scheme: dark) {
+  .v-field {
+    background-color: #1e1e1e !important;
+    border-color: rgba(255, 255, 255, 0.38) !important;
+  }
+  
+  .v-field__input {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+  }
+  
+  .v-label {
+    color: rgba(255, 255, 255, 0.6) !important;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .v-field {
+    border-width: 2px !important;
+    border-color: #000000 !important;
+  }
+  
+  .v-field__input {
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+  }
+}
